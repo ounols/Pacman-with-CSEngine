@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.90.1 commit date:2020-09-23, commit time:06:43, hash:3e85bb34d0d7</authoring_tool>
+    </contributor>
+    <created>2021-10-25T00:16:20</created>
+    <modified>2021-10-25T00:16:20</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="zeimport_poly_XSIPOLYCLS_board_003-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture_013-surface">
+          <surface type="2D">
+            <init_from>base_color_texture_013</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture_013-sampler">
+          <sampler2D>
+            <source>base_color_texture_013-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture_013-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="zeimport_poly83_XSIPOLYCLS_food_002-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture_014-surface">
+          <surface type="2D">
+            <init_from>base_color_texture_014</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture_014-sampler">
+          <sampler2D>
+            <source>base_color_texture_014-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture_014-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="zeimport_poly5_XSIPOLYCLS_maze_002-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture_015-surface">
+          <surface type="2D">
+            <init_from>base_color_texture_015</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture_015-sampler">
+          <sampler2D>
+            <source>base_color_texture_015-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture_015-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="zeimport_poly84_XSIPOLYCLS_main_002-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture_016-surface">
+          <surface type="2D">
+            <init_from>base_color_texture_016</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture_016-sampler">
+          <sampler2D>
+            <source>base_color_texture_016-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture_016-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="zeimport_poly_XSIPOLYCLS_ghost1_002-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture-surface">
+          <surface type="2D">
+            <init_from>base_color_texture</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture-sampler">
+          <sampler2D>
+            <source>base_color_texture-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="zeimport_poly1_XSIPOLYCLS_ghost_002-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture-surface">
+          <surface type="2D">
+            <init_from>base_color_texture</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture-sampler">
+          <sampler2D>
+            <source>base_color_texture-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="zeimport_poly_XSIPOLYCLS_ghost2_002-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture-surface">
+          <surface type="2D">
+            <init_from>base_color_texture</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture-sampler">
+          <sampler2D>
+            <source>base_color_texture-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="board1_002-effect">
+      <profile_COMMON>
+        <newparam sid="base_color_texture_013-surface">
+          <surface type="2D">
+            <init_from>base_color_texture_013</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="base_color_texture_013-sampler">
+          <sampler2D>
+            <source>base_color_texture_013-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <texture texture="base_color_texture_013-sampler" texcoord="UVMap"/>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">1</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="base_color_texture" name="base_color_texture">
+      <init_from>base_color_texture.png</init_from>
+    </image>
+    <image id="base_color_texture_013" name="base_color_texture_013">
+      <init_from>base_color_texture.013.png</init_from>
+    </image>
+    <image id="base_color_texture_014" name="base_color_texture_014">
+      <init_from>base_color_texture.014.png</init_from>
+    </image>
+    <image id="base_color_texture_015" name="base_color_texture_015">
+      <init_from>base_color_texture.015.png</init_from>
+    </image>
+    <image id="base_color_texture_016" name="base_color_texture_016">
+      <init_from>base_color_texture.016.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="zeimport_poly_XSIPOLYCLS_board_003-material" name="zeimport_poly_XSIPOLYCLS.board.003">
+      <instance_effect url="#zeimport_poly_XSIPOLYCLS_board_003-effect"/>
+    </material>
+    <material id="zeimport_poly83_XSIPOLYCLS_food_002-material" name="zeimport_poly83_XSIPOLYCLS.food.002">
+      <instance_effect url="#zeimport_poly83_XSIPOLYCLS_food_002-effect"/>
+    </material>
+    <material id="zeimport_poly5_XSIPOLYCLS_maze_002-material" name="zeimport_poly5_XSIPOLYCLS.maze.002">
+      <instance_effect url="#zeimport_poly5_XSIPOLYCLS_maze_002-effect"/>
+    </material>
+    <material id="zeimport_poly84_XSIPOLYCLS_main_002-material" name="zeimport_poly84_XSIPOLYCLS.main.002">
+      <instance_effect url="#zeimport_poly84_XSIPOLYCLS_main_002-effect"/>
+    </material>
+    <material id="zeimport_poly_XSIPOLYCLS_ghost1_002-material" name="zeimport_poly_XSIPOLYCLS.ghost1.002">
+      <instance_effect url="#zeimport_poly_XSIPOLYCLS_ghost1_002-effect"/>
+    </material>
+    <material id="zeimport_poly1_XSIPOLYCLS_ghost_002-material" name="zeimport_poly1_XSIPOLYCLS.ghost.002">
+      <instance_effect url="#zeimport_poly1_XSIPOLYCLS_ghost_002-effect"/>
+    </material>
+    <material id="zeimport_poly_XSIPOLYCLS_ghost2_002-material" name="zeimport_poly_XSIPOLYCLS.ghost2.002">
+      <instance_effect url="#zeimport_poly_XSIPOLYCLS_ghost2_002-effect"/>
+    </material>
+    <material id="board1_002-material" name="board1.002">
+      <instance_effect url="#board1_002-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Mesh_003-mesh" name="Mesh.003">
+      <mesh>
+        <source id="Mesh_003-mesh-positions">
+          <float_array id="Mesh_003-mesh-positions-array" count="216">-2.785424 0.3180943 2.045805 -1.897296 0.3180943 1.310165 -2.785434 0.3180943 1.300963 -2.785434 -0.2040968 1.300963 -1.897296 -0.2040968 1.310165 -2.785424 -0.2040968 2.045805 0.8169087 -0.2040968 2.452562 1.720688 0.3180943 2.441873 0.8169087 0.3180943 2.452562 1.720688 -0.2040968 2.441873 1.720661 0.3180943 2.047067 1.720661 -0.2040968 2.047067 2.175791 0.3180943 2.045292 2.175791 -0.2040968 2.045292 2.175791 0.3180943 1.243948 2.175791 -0.2040968 1.243948 2.621287 0.3180943 1.255521 2.621287 -0.2040968 1.255521 2.621287 0.3180943 -1.073109 0.8011998 -0.2040968 2.790471 0.8011998 0.3180943 2.790471 -1.449077 -0.2040968 2.790471 -1.449077 0.3180943 2.790471 -1.446943 -0.2040968 2.45784 -1.446943 0.3180943 2.45784 -2.347984 -0.2040968 2.444355 -2.347984 0.3180943 2.444355 -2.346965 -0.2041378 2.047678 -2.346965 0.3180523 2.047678 -0.06693762 -0.2040968 0.4953976 -0.9727527 0.3180943 0.4990683 -0.06693762 0.3180943 0.4953976 -0.9727527 -0.2040968 0.4990683 -0.9727527 0.3180943 0.8903809 -0.9727527 -0.2040968 0.8903809 -1.89729 0.3180943 0.9081774 -1.89729 -0.2040968 0.9081774 -0.05855292 -0.2040968 -0.3039484 -0.05855292 0.3180943 -0.3039484 -0.9727527 -0.2040968 -0.2968969 -0.9727527 0.3180943 -0.2968969 -0.9727489 -0.2040968 -0.6880846 -0.9727489 0.3180943 -0.6880846 -1.877742 -0.2040968 -0.6813087 -1.877742 0.3180943 -0.6813087 -1.882871 -0.2040968 -1.091185 -1.882871 0.3180943 -1.091185 -2.785434 -0.2040968 -1.097306 -2.785434 0.3180943 -1.097306 -2.785434 -0.2041378 -1.842171 -2.785434 0.3180523 -1.842171 -2.357257 -0.2040968 -1.842198 -2.357257 0.3180943 -1.842198 -2.360904 -0.2040968 -2.239894 -2.360904 0.3180943 -2.239894 -1.443353 -0.2040968 -2.239894 -1.443353 0.3180943 -2.239894 -1.441369 -0.2040968 -2.616249 -1.441369 0.3180943 -2.616249 0.7841748 -0.2040968 -2.616249 0.7841748 0.3180943 -2.616249 0.7776078 -0.2040968 -2.239894 0.7776078 0.3180943 -2.239894 1.720688 -0.2040968 -2.239894 1.720688 0.3180943 -2.239894 1.720688 -0.2040968 -1.842198 1.720688 0.3180943 -1.842198 2.175796 -0.2040968 -1.842198 2.175796 0.3180943 -1.842198 2.175791 -0.2040968 -1.073084 2.175791 0.3180943 -1.073084 2.621287 -0.2040968 -1.073109</float_array>
+          <technique_common>
+            <accessor source="#Mesh_003-mesh-positions-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh_003-mesh-normals">
+          <float_array id="Mesh_003-mesh-normals-array" count="411">4.20744e-5 1 5.07761e-5 -4.39455e-6 1 1.24187e-5 0 1 0 0 -1 0 -2.53407e-5 -1 -4.93282e-5 -4.11181e-5 -1 -4.9659e-5 0.01182699 0 0.9999302 0.01182699 0 0.9999302 1 0 -6.76355e-5 1 0 -6.76355e-5 1 0 -6.76355e-5 0.003899693 0 0.9999924 0.003899812 0 0.9999924 0.003900289 0 0.9999924 1 0 0 -0.02596849 0 0.9996628 -0.02596849 0 0.9996628 0.9989212 0 0.04643845 0.9989212 0 0.04643845 0.9989212 0 0.04643851 0 0 1 -0.9999795 0 -0.00641632 -0.9999795 0 -0.00641632 -0.01496422 0 0.9998881 -0.01496422 0 0.9998881 -0.9999968 0 -0.002567589 -0.9999968 0 -0.002567589 -0.9999968 0 -0.002567589 -0.004271626 0 0.9999909 -0.004271686 0 0.9999909 -0.004271864 0 0.9999909 -1 0 1.28037e-5 -1 0 1.28037e-5 -1 0 1.28037e-5 -0.004052281 0 -0.9999918 -0.004052281 0 -0.9999918 -0.00405234 0 -0.9999918 -1 0 0 -0.01924544 0 -0.9998148 -0.0192455 0 -0.9998148 -0.01924544 0 -0.9998149 -1 0 -1.42344e-5 -1 0 -1.42344e-5 0.01036041 0 -0.9999464 0.01036041 0 -0.9999464 -0.999945 0 -0.01048886 -0.9999451 0 -0.01048886 0.007713019 0 0.9999703 0.007713019 0 0.9999703 0.00771296 0 0.9999703 -1 0 -9.75158e-6 -1 0 -9.75158e-6 0.007486939 0 0.9999721 0.007486879 0 0.9999721 0.007486999 0 0.999972 -0.9999217 0 0.01251214 -0.9999217 0 0.01251214 -0.9999217 0 0.01251214 -0.00678116 0 0.9999771 -0.00678116 0 0.9999771 -6.24036e-5 0 -1 -6.24104e-5 0 -1 -6.24342e-5 0 -1 -0.999958 0 0.009169518 -0.999958 0 0.009169518 -0.999958 0 0.009169518 0 0 -1 -0.9999861 0 -0.00527054 -0.9999861 0 -0.00527054 -0.9999861 0 -0.00527054 0.9998479 0 0.01744627 0.9998479 0 0.01744627 0.9998479 0 0.01744627 1 0 6.19982e-6 1 0 6.19982e-6 -5.7905e-5 0 -1 -5.7905e-5 0 -1 1.58312e-6 1 -1.0589e-4 -9.14617e-6 1 -5.64651e-6 2.56271e-5 1 3.26824e-5 0 1 0 0 1 0 0 1 0 0 1 0 0 1 1.42323e-7 0 1 0 0 1 0 0 1 -1.63342e-7 -2.17749e-5 1 -1.25597e-5 -9.80043e-5 1 -5.63465e-5 -3.24095e-5 1 -1.86335e-5 0 1 0 0 1 0 0 1 0 0 -1 0 -2.15138e-5 -1 -4.91444e-5 2.81912e-6 -1 -4.75969e-6 0 -1 0 3.00571e-6 -1 1.40988e-6 0 -1 0 0 -1 0 6.34143e-6 -1 4.0234e-6 -3.7335e-7 -1 5.50575e-5 4.21053e-5 -1 4.01412e-6 4.32878e-5 -1 -2.73326e-5 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 -2.6598e-7 -1 1.02502e-4 -4.28142e-5 -1 -2.65417e-5 0.01182699 0 0.9999301 1 0 -6.76355e-5 0.003899276 0 0.9999925 0.9989212 0 0.04643845 -0.9999967 0 -0.002567589 -0.004271388 0 0.9999909 -1 0 1.28037e-5 -0.004052221 0 -0.9999918 -0.01924556 0 -0.9998149 -1 0 -1.42344e-5 0.007713019 0 0.9999703 -1 0 -9.75158e-6 0.007486879 0 0.9999721 -0.9999217 0 0.01251214 -6.23798e-5 0 -1 -0.999958 0 0.009169518 -0.9999861 0 -0.00527054 0.9998479 0 0.01744627 1 0 6.19982e-6</float_array>
+          <technique_common>
+            <accessor source="#Mesh_003-mesh-normals-array" count="137" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mesh_003-mesh-map-0">
+          <float_array id="Mesh_003-mesh-map-0-array" count="840">0.261083 0.519267 0.259226 0.512223 0.261083 0.512134 0.261083 0.512134 0.259226 0.512223 0.261083 0.519267 0.253628 0.523161 0.251733 0.523059 0.253628 0.523161 0.251733 0.523059 0.251758 0.519279 0.251733 0.523059 0.251758 0.519279 0.250878 0.519262 0.251758 0.519279 0.250878 0.519262 0.250864 0.511588 0.250878 0.519262 0.250864 0.511588 0.249894 0.511699 0.250864 0.511588 0.249894 0.511699 0.249894 0.489373 0.249894 0.511699 0.25366 0.526397 0.253628 0.523161 0.25366 0.526397 0.258317 0.526397 0.25366 0.526397 0.258317 0.526397 0.258313 0.523212 0.258317 0.526397 0.258313 0.523212 0.260178 0.523083 0.258313 0.523212 0.260178 0.523083 0.260175 0.519285 0.260178 0.523083 0.260175 0.519285 0.261083 0.519267 0.260175 0.519285 0.261083 0.519267 0.261083 0.512134 0.261083 0.519267 0.261083 0.512134 0.255457 0.504421 0.257359 0.504456 0.255457 0.504421 0.257359 0.504456 0.257324 0.508203 0.257359 0.504456 0.257324 0.508203 0.259245 0.508373 0.257324 0.508203 0.259245 0.508373 0.259226 0.512223 0.259245 0.508373 0.259226 0.512223 0.261083 0.512134 0.259226 0.512223 0.25544 0.496767 0.255457 0.504421 0.25544 0.496767 0.257302 0.496834 0.25544 0.496767 0.257302 0.496834 0.257331 0.493088 0.257302 0.496834 0.257331 0.493088 0.259204 0.493153 0.257331 0.493088 0.259204 0.493153 0.259215 0.489229 0.259204 0.493153 0.259215 0.489229 0.261083 0.48917 0.259215 0.489229 0.261083 0.48917 0.261083 0.482038 0.261083 0.48917 0.261083 0.482038 0.260197 0.482011 0.261083 0.482038 0.260197 0.482011 0.260204 0.478272 0.260197 0.482011 0.260204 0.478272 0.258305 0.478081 0.260204 0.478272 0.258305 0.478081 0.258301 0.474625 0.258305 0.478081 0.258301 0.474625 0.253696 0.474625 0.258301 0.474625 0.253696 0.474625 0.253709 0.478229 0.253696 0.474625 0.253709 0.478229 0.251755 0.478152 0.253709 0.478229 0.251755 0.478152 0.251761 0.481894 0.251755 0.478152 0.251761 0.481894 0.250816 0.482004 0.251761 0.481894 0.250816 0.482004 0.250834 0.489402 0.250816 0.482004 0.250834 0.489402 0.249894 0.489373 0.250834 0.489402 0.249894 0.489373 0.260178 0.523083 0.258313 0.523212 0.260175 0.519285 0.258317 0.526397 0.25366 0.526397 0.258313 0.523212 0.25366 0.526397 0.253628 0.523161 0.258313 0.523212 0.253628 0.523161 0.251733 0.523059 0.258313 0.523212 0.251733 0.523059 0.251758 0.519279 0.258313 0.523212 0.250878 0.519262 0.250864 0.511588 0.251758 0.519279 0.249894 0.511699 0.249894 0.489373 0.250864 0.511588 0.249894 0.489373 0.250834 0.489402 0.250864 0.511588 0.250816 0.482004 0.251761 0.481894 0.250834 0.489402 0.251755 0.478152 0.253709 0.478229 0.251761 0.481894 0.253696 0.474625 0.258301 0.474625 0.253709 0.478229 0.258301 0.474625 0.258305 0.478081 0.253709 0.478229 0.260204 0.478272 0.260197 0.482011 0.258305 0.478081 0.261083 0.482038 0.261083 0.48917 0.260197 0.482011 0.261083 0.48917 0.259215 0.489229 0.260197 0.482011 0.259204 0.493153 0.257331 0.493088 0.259215 0.489229 0.257302 0.496834 0.25544 0.496767 0.257331 0.493088 0.257359 0.504456 0.257324 0.508203 0.255457 0.504421 0.259245 0.508373 0.259226 0.512223 0.257324 0.508203 0.260175 0.519285 0.259226 0.512223 0.261083 0.519267 0.258313 0.523212 0.259226 0.512223 0.260175 0.519285 0.251758 0.519279 0.259226 0.512223 0.258313 0.523212 0.250864 0.511588 0.259226 0.512223 0.251758 0.519279 0.250834 0.489402 0.251761 0.481894 0.250864 0.511588 0.253709 0.478229 0.250864 0.511588 0.251761 0.481894 0.258305 0.478081 0.250864 0.511588 0.253709 0.478229 0.260197 0.482011 0.259215 0.489229 0.258305 0.478081 0.257331 0.493088 0.258305 0.478081 0.259215 0.489229 0.25544 0.496767 0.258305 0.478081 0.257331 0.493088 0.255457 0.504421 0.250864 0.511588 0.25544 0.496767 0.257324 0.508203 0.259226 0.512223 0.255457 0.504421 0.259226 0.512223 0.250864 0.511588 0.255457 0.504421 0.258305 0.478081 0.25544 0.496767 0.250864 0.511588 0.259245 0.508373 0.257324 0.508203 0.259226 0.512223 0.257359 0.504456 0.255457 0.504421 0.257324 0.508203 0.25544 0.496767 0.253628 0.523161 0.255457 0.504421 0.257302 0.496834 0.257331 0.493088 0.25544 0.496767 0.259204 0.493153 0.259215 0.489229 0.257331 0.493088 0.261083 0.48917 0.261083 0.482038 0.259215 0.489229 0.261083 0.482038 0.260197 0.482011 0.259215 0.489229 0.260197 0.482011 0.260204 0.478272 0.259215 0.489229 0.260204 0.478272 0.258305 0.478081 0.259215 0.489229 0.258301 0.474625 0.253696 0.474625 0.258305 0.478081 0.253696 0.474625 0.253709 0.478229 0.258305 0.478081 0.251755 0.478152 0.251761 0.481894 0.253709 0.478229 0.250816 0.482004 0.250834 0.489402 0.251761 0.481894 0.249894 0.489373 0.249894 0.511699 0.250834 0.489402 0.249894 0.511699 0.250864 0.511588 0.250834 0.489402 0.250878 0.519262 0.251758 0.519279 0.250864 0.511588 0.251733 0.523059 0.253628 0.523161 0.251758 0.519279 0.25366 0.526397 0.258317 0.526397 0.253628 0.523161 0.258317 0.526397 0.258313 0.523212 0.253628 0.523161 0.258313 0.523212 0.260178 0.523083 0.253628 0.523161 0.260178 0.523083 0.260175 0.519285 0.253628 0.523161 0.261083 0.519267 0.259226 0.512223 0.260175 0.519285 0.259226 0.512223 0.257324 0.508203 0.260175 0.519285 0.257324 0.508203 0.255457 0.504421 0.260175 0.519285 0.257331 0.493088 0.259215 0.489229 0.25544 0.496767 0.259215 0.489229 0.258305 0.478081 0.25544 0.496767 0.258305 0.478081 0.253709 0.478229 0.25544 0.496767 0.253709 0.478229 0.251761 0.481894 0.25544 0.496767 0.251761 0.481894 0.250834 0.489402 0.25544 0.496767 0.250834 0.489402 0.250864 0.511588 0.25544 0.496767 0.250864 0.511588 0.251758 0.519279 0.25544 0.496767 0.251758 0.519279 0.253628 0.523161 0.25544 0.496767 0.260175 0.519285 0.255457 0.504421 0.253628 0.523161 0.251733 0.523059 0.251733 0.523059 0.253628 0.523161 0.251758 0.519279 0.251758 0.519279 0.251733 0.523059 0.250878 0.519262 0.250878 0.519262 0.251758 0.519279 0.250864 0.511588 0.250864 0.511588 0.250878 0.519262 0.249894 0.511699 0.249894 0.511699 0.250864 0.511588 0.249894 0.489373 0.249894 0.489373 0.249894 0.511699 0.253628 0.523161 0.253628 0.523161 0.25366 0.526397 0.25366 0.526397 0.25366 0.526397 0.258317 0.526397 0.258317 0.526397 0.258317 0.526397 0.258313 0.523212 0.258313 0.523212 0.258313 0.523212 0.260178 0.523083 0.260178 0.523083 0.260178 0.523083 0.260175 0.519285 0.260175 0.519285 0.260175 0.519285 0.261083 0.519267 0.261083 0.519267 0.261083 0.519267 0.261083 0.512134 0.257359 0.504456 0.257359 0.504456 0.255457 0.504421 0.257324 0.508203 0.257324 0.508203 0.257359 0.504456 0.259245 0.508373 0.259245 0.508373 0.257324 0.508203 0.259226 0.512223 0.259226 0.512223 0.259245 0.508373 0.261083 0.512134 0.261083 0.512134 0.259226 0.512223 0.255457 0.504421 0.255457 0.504421 0.25544 0.496767 0.25544 0.496767 0.25544 0.496767 0.257302 0.496834 0.257302 0.496834 0.257302 0.496834 0.257331 0.493088 0.257331 0.493088 0.257331 0.493088 0.259204 0.493153 0.259204 0.493153 0.259204 0.493153 0.259215 0.489229 0.259215 0.489229 0.259215 0.489229 0.261083 0.48917 0.261083 0.48917 0.261083 0.48917 0.261083 0.482038 0.261083 0.482038 0.261083 0.482038 0.260197 0.482011 0.260197 0.482011 0.260197 0.482011 0.260204 0.478272 0.260204 0.478272 0.260204 0.478272 0.258305 0.478081 0.258305 0.478081 0.258305 0.478081 0.258301 0.474625 0.258301 0.474625 0.258301 0.474625 0.253696 0.474625 0.253696 0.474625 0.253696 0.474625 0.253709 0.478229 0.253709 0.478229 0.253709 0.478229 0.251755 0.478152 0.251755 0.478152 0.251755 0.478152 0.251761 0.481894 0.251761 0.481894 0.251761 0.481894 0.250816 0.482004 0.250816 0.482004 0.250816 0.482004 0.250834 0.489402 0.250834 0.489402 0.250834 0.489402 0.249894 0.489373</float_array>
+          <technique_common>
+            <accessor source="#Mesh_003-mesh-map-0-array" count="420" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mesh_003-mesh-vertices">
+          <input semantic="POSITION" source="#Mesh_003-mesh-positions"/>
+        </vertices>
+        <triangles material="zeimport_poly_XSIPOLYCLS_board_003-material" count="140">
+          <input semantic="VERTEX" source="#Mesh_003-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Mesh_003-mesh-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Mesh_003-mesh-map-0" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 6 8 9 8 9 10 9 10 7 10 11 11 11 12 12 12 13 10 13 14 13 14 15 14 14 16 12 14 17 15 15 18 16 15 19 14 16 20 17 14 21 18 14 22 16 14 23 19 17 24 8 18 25 20 19 26 21 20 27 20 20 28 22 20 29 23 21 30 22 21 31 24 22 32 25 23 33 24 23 34 26 24 35 27 25 36 26 26 37 28 27 38 5 28 39 28 29 40 0 30 41 3 31 42 0 32 43 2 33 44 29 34 45 30 35 46 31 36 47 32 37 48 33 37 49 30 37 50 34 38 51 35 39 52 33 40 53 36 41 54 1 41 55 35 42 56 4 43 57 2 43 58 1 44 59 37 45 60 31 45 61 38 46 62 39 47 63 38 48 64 40 49 65 41 50 66 40 50 67 42 51 68 43 52 69 42 53 70 44 54 71 45 55 72 44 56 73 46 57 74 47 58 75 46 58 76 48 59 77 49 37 78 48 37 79 50 37 80 51 60 81 50 61 82 52 62 83 53 63 84 52 64 85 54 65 86 55 66 87 54 66 88 56 66 89 57 67 90 56 68 91 58 69 92 59 66 93 58 66 94 60 66 95 61 70 96 60 71 97 62 72 98 63 66 99 62 66 100 64 66 101 65 14 102 64 14 103 66 14 104 67 66 105 66 66 106 68 66 107 69 73 108 68 73 109 70 74 110 71 75 111 70 75 112 18 76 113 26 77 114 24 78 115 28 79 116 22 2 117 20 2 118 24 78 119 20 2 120 8 2 121 24 78 122 8 2 123 7 2 124 24 78 125 7 2 126 10 80 127 24 78 128 12 2 129 14 81 130 10 80 131 16 2 132 18 2 133 14 81 134 18 2 135 70 2 136 14 81 137 68 2 138 66 82 139 70 2 140 64 2 141 62 83 142 66 82 143 60 84 144 58 85 145 62 83 146 58 85 147 56 86 148 62 83 149 54 87 150 52 88 151 56 86 152 50 89 153 48 90 154 52 88 155 48 90 156 46 91 157 52 88 158 44 2 159 42 92 160 46 91 161 40 2 162 38 93 163 42 92 164 30 2 165 33 2 166 31 2 167 35 2 168 1 1 169 33 2 170 28 79 171 1 1 172 0 0 173 24 78 174 1 1 175 28 79 176 10 80 177 1 1 178 24 78 179 14 81 180 1 1 181 10 80 182 70 2 183 66 82 184 14 81 185 62 83 186 14 81 187 66 82 188 56 86 189 14 81 190 62 83 191 52 88 192 46 91 193 56 86 194 42 92 195 56 86 196 46 91 197 38 93 198 56 86 199 42 92 200 31 2 201 14 81 202 38 93 203 33 2 204 1 1 205 31 2 206 1 1 207 14 81 208 31 2 209 56 86 210 38 93 211 14 81 212 36 94 213 34 95 214 4 4 215 32 3 216 29 96 217 34 95 218 37 97 219 6 98 220 29 96 221 39 99 222 41 100 223 37 97 224 43 3 225 45 101 226 41 100 227 47 102 228 49 103 229 45 101 230 49 103 231 51 104 232 45 101 233 51 104 234 53 3 235 45 101 236 53 3 237 55 105 238 45 101 239 57 106 240 59 107 241 55 105 242 59 107 243 61 108 244 55 105 245 63 3 246 65 109 247 61 108 248 67 110 249 69 111 250 65 109 251 71 3 252 17 3 253 69 111 254 17 3 255 15 112 256 69 111 257 13 3 258 11 113 259 15 112 260 9 3 261 6 98 262 11 113 263 19 3 264 21 114 265 6 98 266 21 114 267 23 115 268 6 98 269 23 115 270 25 116 271 6 98 272 25 116 273 27 117 274 6 98 275 5 5 276 4 4 277 27 117 278 4 4 279 34 95 280 27 117 281 34 95 282 29 96 283 27 117 284 41 100 285 45 101 286 37 97 287 45 101 288 55 105 289 37 97 290 55 105 291 61 108 292 37 97 293 61 108 294 65 109 295 37 97 296 65 109 297 69 111 298 37 97 299 69 111 300 15 112 301 37 97 302 15 112 303 11 113 304 37 97 305 11 113 306 6 98 307 37 97 308 27 117 309 29 96 310 6 98 311 9 118 312 7 7 313 6 6 314 11 119 315 10 9 316 9 8 317 13 120 318 12 12 319 11 11 320 15 14 321 14 14 322 13 14 323 17 16 324 16 15 325 15 15 326 71 14 327 18 14 328 17 14 329 6 121 330 8 18 331 19 17 332 19 20 333 20 20 334 21 20 335 21 22 336 22 21 337 23 21 338 23 24 339 24 23 340 25 23 341 25 122 342 26 26 343 27 25 344 27 123 345 28 29 346 5 28 347 5 124 348 0 32 349 3 31 350 32 125 351 30 35 352 29 34 353 34 37 354 33 37 355 32 37 356 36 126 357 35 39 358 34 38 359 4 127 360 1 41 361 36 41 362 3 44 363 2 43 364 4 43 365 29 45 366 31 45 367 37 45 368 37 128 369 38 48 370 39 47 371 39 129 372 40 50 373 41 50 374 41 130 375 42 53 376 43 52 377 43 131 378 44 56 379 45 55 380 45 59 381 46 58 382 47 58 383 47 37 384 48 37 385 49 37 386 49 132 387 50 61 388 51 60 389 51 133 390 52 64 391 53 63 392 53 66 393 54 66 394 55 66 395 55 134 396 56 68 397 57 67 398 57 66 399 58 66 400 59 66 401 59 135 402 60 71 403 61 70 404 61 66 405 62 66 406 63 66 407 63 14 408 64 14 409 65 14 410 65 66 411 66 66 412 67 66 413 67 136 414 68 73 415 69 73 416 69 76 417 70 75 418 71 75 419</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="_3_2_163_0" name="13.2.163.0" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 -1.62921e-7 -1 0 0 1 -1.62921e-7 0 0 0 0 1</matrix>
+        <instance_geometry url="#Mesh_003-mesh" name="13.2.163.0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="zeimport_poly_XSIPOLYCLS_board_003-material" target="#zeimport_poly_XSIPOLYCLS_board_003-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="zeimport_poly83_XSIPOLYCLS_food_002-material" target="#zeimport_poly83_XSIPOLYCLS_food_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="zeimport_poly5_XSIPOLYCLS_maze_002-material" target="#zeimport_poly5_XSIPOLYCLS_maze_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="zeimport_poly84_XSIPOLYCLS_main_002-material" target="#zeimport_poly84_XSIPOLYCLS_main_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="zeimport_poly_XSIPOLYCLS_ghost1_002-material" target="#zeimport_poly_XSIPOLYCLS_ghost1_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="zeimport_poly1_XSIPOLYCLS_ghost_002-material" target="#zeimport_poly1_XSIPOLYCLS_ghost_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="zeimport_poly_XSIPOLYCLS_ghost2_002-material" target="#zeimport_poly_XSIPOLYCLS_ghost2_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="board1_002-material" target="#board1_002-material">
+                <bind_vertex_input semantic="UVMap" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
