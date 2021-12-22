@@ -6,6 +6,6 @@
 
 ## Todo Lists
 
-- [] Converting all custom components into scripts.
-- [] build on windows.
-- [] Develop in-game system.
+- [ ] Converting all custom components into scripts.
+- [ ] build on windows.
+- [ ] Develop in-game system.
