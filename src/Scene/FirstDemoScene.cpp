@@ -3,7 +3,6 @@
 #include <Component/RenderComponent.h>
 #include <Component/PlayerMovementComponent.h>
 #include <Component/MapDataUtil.h>
-#include <Component/CameraMovementComponent.h>
 #include <Component/LightComponent.h>
 #include <Component/GhostMovementComponent.h>
 #include <Component/GhostFsmManagerComponent.h>
@@ -15,6 +14,7 @@
 #include <Component/GhostEatenState.h>
 #include <Component/AttackItemComponent.h>
 #include <Component/GameManagerComponent.h>
+#include <Component/CustomComponent.h>
 #include "Util/Render/SMaterial.h"
 #include "FirstDemoScene.h"
 
@@ -28,9 +28,11 @@ FirstDemoScene::~FirstDemoScene() = default;
 
 void FirstDemoScene::Init() {
     auto camera = new SGameObject("main camera");
-    camera->CreateComponent<CameraMovementComponent>();
     auto camera_component = camera->CreateComponent<CameraComponent>();
     camera->GetTransform()->m_position = vec3{ 0, 40.f, 1.5708f};
+    auto camera_custom_comp = camera->CreateComponent<CustomComponent>();
+    camera_custom_comp->SetClassName("CameraMovement.script");
+
 
 
     auto game_root = new SGameObject("root");
@@ -119,7 +121,7 @@ void FirstDemoScene::Init() {
         auto light_comp = player_light->CreateComponent<LightComponent>();
         light_comp->SetLightType(LightComponent::POINT);
         light_comp->SetColor(vec3{ 500, 500, 0 });
-        light_comp->m_disableShadow = true;
+        light_comp->SetShadow(false);
         light_comp->SetLightRadius(4);
     }
 
