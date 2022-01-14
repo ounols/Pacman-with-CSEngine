@@ -12,6 +12,8 @@ const char* Settings::m_defaultDeferredMaterialID = "File:Material/Default.mat";
 const char* Settings::m_defaultDeferredProxyMaterialID = "File:Material/DefaultPBR.mat";
 const char* Settings::m_defaultMainBufferShaderID = "File:Shader/Main-Buffer.shader";
 
+const bool Settings::m_assetsPacked = false;
+
 Settings::Settings() = default;
 
 Settings::~Settings() = default;
@@ -25,7 +27,11 @@ const char* Settings::GetDefaultForwardMaterialId() {
 }
 
 const char* Settings::GetDefaultDeferredMaterialId() {
+#if defined(__ANDROID__) || defined(__EMSCRIPTEN__)
     return m_defaultDeferredProxyMaterialID;
+#else
+    return m_defaultDeferredMaterialID;
+#endif
 }
 
 const char* Settings::GetDefaultMainBufferShaderID() {
