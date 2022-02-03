@@ -1,4 +1,4 @@
 [submodule "csengine"]
 	path = csengine
 	url = https://github.com/ounols/CSEngine.git
-	branch = web
+	branch = master

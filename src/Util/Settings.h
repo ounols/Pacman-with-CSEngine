@@ -1,11 +1,6 @@
-//
-// Created by ounol on 2021-08-14.
-//
-
 #pragma once
 
 namespace CSE {
-
     class Settings {
     public:
         Settings();
@@ -16,11 +11,16 @@ namespace CSE {
         static const char* GetDefaultForwardMaterialId();
         static const char* GetDefaultDeferredMaterialId();
         static const char* GetDefaultMainBufferShaderID();
+        static const char* GetDefaultBlitBufferShaderID();
+        static int GetMaxLights();
 
-        //Assets
+        // Assets
         static bool IsAssetsPacked() {
             return m_assetsPacked;
         }
+
+        // Animation
+        static int GetMaxJoints();
 
     private:
         // Renderer
@@ -29,8 +29,13 @@ namespace CSE {
         static const char* m_defaultDeferredMaterialID;
         static const char* m_defaultDeferredProxyMaterialID;
         static const char* m_defaultMainBufferShaderID;
+        static const char* m_defaultBlitBufferShaderID;
+        static const int m_maxLights;
 
         // Assets
         static const bool m_assetsPacked;
+
+        // Animation
+        static const int m_maxJoints;
     };
 }
