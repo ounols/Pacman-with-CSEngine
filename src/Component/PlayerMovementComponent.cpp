@@ -6,7 +6,7 @@
 #include "MapDataUtil.h"
 #include "PlayerStateComponent.h"
 
-#ifdef WIN32
+#ifdef _WIN32
 #include <Windows.h>
 #endif
 
@@ -37,7 +37,7 @@ void PlayerMovementComponent::Tick(float elapsedTime) {
 }
 
 void PlayerMovementComponent::InputKeyEvent() {
-#ifdef WIN32
+#ifdef _WIN32
 
     if(GetAsyncKeyState(VkKeyScan('w'))) {
         m_inputDirection = UP;
